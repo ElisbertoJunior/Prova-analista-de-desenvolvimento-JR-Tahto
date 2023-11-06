@@ -20,7 +20,7 @@ public class VowelOrConsonant {
     }
 
 
-    //Metodo que verifica se a letra e uma vogal
+    //Método que verifica se a letra e uma vogal
     public static boolean isVowel(char letter) {
         letter = Character.toLowerCase(letter);
         return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
