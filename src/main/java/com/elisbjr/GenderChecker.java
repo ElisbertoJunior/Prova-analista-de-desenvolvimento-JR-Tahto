@@ -9,11 +9,11 @@ public class GenderChecker {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o gênero (F/M): ");
-        String gender = scanner.next();
+        char gender = scanner.next().charAt(0);
 
-        if (gender.equalsIgnoreCase("F")) {
+        if (gender == 'f' || gender == 'F') {
             System.out.println("F-  Feminino");
-        } else if (gender.equalsIgnoreCase("M")) {
+        } else if (gender == 'm' || gender == 'M') {
             System.out.println("M- Masculino");
         } else {
             System.out.println("Sexo inválido");
